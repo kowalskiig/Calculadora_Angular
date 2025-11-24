@@ -1,8 +1,9 @@
 <div class="container">
     <h1>Lista de compras</h1>
 
-    <form class="add-item-form">
+    <form #frm="ngform" class="add-item-form">
         <input type="text" id="item" placeholder="Adicione o nome do item">
+        <button type="submit">Adicionar</button>
     </form>
 
     <table>
